@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+}
+
+.card-container { 
+    margin: 15% 42%;
+}
+
+.card {
+    width: 200px;
+    height: 334px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.center-symbol {
+    font-size: 100px;
+}
+
+.top-symbol {
+    padding: 0;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.bottom-symbol {
+   transform: rotate(180deg); 
+   padding: 0;
+   align-self: flex-end;
+   margin-right: 10px;
+}
